@@ -35,5 +35,5 @@ models:
   dbt_final1:
     # Config indicated by + and applies to all files under models/example/
     test:
-      +materialized: view
+      +materialized: table
       +schema: test
