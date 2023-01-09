@@ -3,4 +3,4 @@ with sales_dbt_model as (
 id,Name,City,State,Amount,date,
  from sales_dbt )
 
- select * from test_dbt.sales_dbt_model
+ select * from dbt_test.sales_dbt_model
